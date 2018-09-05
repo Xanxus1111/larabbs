@@ -37,20 +37,21 @@ return array(
      *  ]
      */
      'menu' => [
-        '用户与权限' => [
-            'users',
-            'roles',
-            'permissions',
-        ],
-        '内容管理' => [
-            'categories',
-            'topics',
-            'replies',
-        ],
-        '站点管理' => [
-            'settings.site',
-        ],
-    ],
+       '用户与权限' => [
+           'users',
+           'roles',
+           'permissions',
+       ],
+       '内容管理' => [
+           'categories',
+           'topics',
+           'replies',
+       ],
+       '站点管理' => [
+           'settings.site',
+           'links',
+       ],
+   ],
 
     /*
      * 权限控制的回调函数。
